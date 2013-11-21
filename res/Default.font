@@ -1,0 +1,5 @@
+﻿<FontDefinition>
+	<Font name="DefaultButtonFont" face="微软雅黑" size="12" />
+	<Font name="msyh12" face="微软雅黑" size="12" />
+	<Font name="kaiti15" face="楷体" size="15" />
+</FontDefinition>

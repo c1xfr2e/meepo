@@ -1,0 +1,140 @@
+﻿<RealWindow>
+	<Property name="Rect" value="{0,0,800,800}"/>
+	<Property name="MinimalSize" value="{100,100}"/>
+	<Property name="BorderSize" value="5" />
+	<Property name="CaptionHeight" value="20" />
+	<Property name="CenterAlignment" value="true" />
+	<Property name="LayeredWindow" value="false" />
+	<Property name="TransparentColorKey" value="FF00FF" />
+	
+	<Layout>
+		<Window type="StaticImage" name="appRoot">
+			<Property name="UnifiedAreaRect" value="{{0,0},{0,0},{1,0},{1,0}}" />
+			<Property name="Image" value="BmpBkg" />
+
+		    <Window type="DefaultWindow" name="SysButton">
+				<Property name="HorizontalAlignment" value="left" />
+				<Property name="UnifiedAreaRect" value="{{1,-95},{0,-1},{1,-0},{0,19}}" />
+				<Property name="Visible" value="true" />
+				<Window type="PushButton" name="btnMin">
+					<Property name="UnifiedAreaRect" value="{{0,0},{0,0},{0,28},{0,20}}" />
+					<Property name="NormalImage" value="MinBtnNormal" />
+					<Property name="HoverImage" value="MinBtnHover" />
+					<Property name="PushImage" value="MinBtnPush" />
+					<Property name="HoverShading" value="true" />
+					<Property name="LeaveShading" value="true" />
+					<Property name="Animation" value="ButtonHover;ButtonLeave" />
+				</Window>
+
+				<Window type="PushButton" name="btnMax">
+					<Property name="UnifiedAreaRect" value="{{0,28},{0,0},{0,56},{0,20}}" />
+					<Property name="NormalImage" value="MaxBtnNormal" />
+					<Property name="HoverImage" value="MaxBtnHover" />
+					<Property name="PushImage" value="MaxBtnPush" />
+					<Property name="HoverShading" value="true" />
+					<Property name="LeaveShading" value="true" />
+					<Property name="Animation" value="ButtonHover;ButtonLeave" />
+				</Window>
+
+				<Window type="PushButton" name="btnCls">
+					<Property name="UnifiedAreaRect" value="{{0,56},{0,0},{0,95},{0,20}}" />
+					<Property name="NormalImage" value="ClsBtnNormal" />
+					<Property name="HoverImage" value="ClsBtnHover" />
+					<Property name="PushImage" value="ClsBtnPush" />
+					<Property name="HoverShading" value="true" />
+					<Property name="LeaveShading" value="true" />
+					<Property name="Animation" value="ButtonHover;ButtonLeave" />
+				</Window>
+			</Window>
+
+            <Window type="StaticImage" name="ScrollPanel">
+                <Property name="UnifiedAreaRect" value="{{0,100},{0,100},{0,438},{0,400}}" />
+                <Property name="Image" value="Bkg1" />
+                
+                
+                <Window type="StaticImage" name="ScrollImage">
+                    <Property name="UnifiedAreaRect" value="{{0,0},{0,0},{1,0},{0,600}}" />
+                    <Property name="Image" value="Bkg3" />
+
+					<Window type="DefaultWindow" name="Toobar">
+						<Property name="Area" value="{20,45,250,81}" />
+						<Property name="UnifiedAreaRect" value="{{0,20},{0,45},{0,250},{0,81}}" />
+						<Window type="ToolbarButton" name="toolbarbtn1">
+							<Property name="UnifiedAreaRect" value="{{0,0},{0,0},{0,36},{1,0}}" />
+							<Property name="Area" value="{0,0,36,-0}" />
+							<Property name="NormalImage" value="toolbar1" />
+							<Property name="HoverHighlightImage" value="toobarBtnHoverHighlight" />
+							<Property name="PushHighlightImage" value="toobarBtnPushHighlight" />
+							<Property name="PushOffset" value="{1,1}" />
+							<Property name="HoverShading" value="true" />
+							<Property name="LeaveShading" value="true" />
+							<Property name="Animation" value="ButtonHover;ButtonLeave" />
+						</Window>
+						<Window type="ToolbarButton" name="toolbarbtn2">
+							<Property name="UnifiedAreaRect" value="{{0,38},{0,0},{0,74},{1,0}}" />
+							<Property name="Area" value="{38,0,74,-0}" />
+							<Property name="NormalImage" value="toolbar2" />
+							<Property name="HoverHighlightImage" value="toobarBtnHoverHighlight" />
+							<Property name="PushHighlightImage" value="toobarBtnPushHighlight" />
+							<Property name="PushOffset" value="{1,1}" />
+							<Property name="HoverShading" value="true" />
+							<Property name="LeaveShading" value="true" />
+							<Property name="Animation" value="ButtonHover;ButtonLeave" />
+						</Window>
+						<Window type="ToolbarButton" name="toolbarbtn3">
+							<Property name="UnifiedAreaRect" value="{{0,76},{0,0},{0,112},{1,0}}" />
+							<Property name="Area" value="{76,0,112,-0}" />
+							<Property name="NormalImage" value="toolbar3" />
+							<Property name="HoverHighlightImage" value="toobarBtnHoverHighlight" />
+							<Property name="PushHighlightImage" value="toobarBtnPushHighlight" />
+							<Property name="PushOffset" value="{1,1}" />
+							<Property name="HoverShading" value="true" />
+							<Property name="LeaveShading" value="true" />
+							<Property name="Animation" value="ButtonHover;ButtonLeave" />
+						</Window>
+					</Window>
+                </Window>
+                
+            </Window>
+
+            <Window type="PushButton" name="BtnMoveUp">
+                <Property name="UnifiedAreaRect" value="{{0,600},{0,200},{0,685},{0,223}}" />
+                <Property name="NormalImage" value="LoginButtonNormal" />
+                <Property name="HoverImage" value="LoginButtonHover" />
+                <Property name="PushImage" value="LoginButtonPush" />
+                <Property name="Text" value="Move up" />
+                <Property name="PushOffset" value="{1,1}" />
+            </Window>
+
+            <Window type="PushButton" name="BtnMoveDown">
+                <Property name="UnifiedAreaRect" value="{{0,600},{0,230},{0,685},{0,253}}" />
+                <Property name="NormalImage" value="LoginButtonNormal" />
+                <Property name="HoverImage" value="LoginButtonHover" />
+                <Property name="PushImage" value="LoginButtonPush" />
+                <Property name="Text" value="Move down" />
+                <Property name="PushOffset" value="{1,1}" />
+            </Window>
+
+            <Window type="VerticalScrollBar" name="scrollbar_test">
+                <Property name="UnifiedAreaRect" value="{{0,100},{0,410},{0,114},{0,650}}" />
+            </Window>
+
+            <Window type="StaticText" name="simple_text">
+                <Property name="UnifiedAreaRect" value="{{0,150},{0,410},{0,250},{0,430}}" />
+                <Property name="Text" value="最最简单的static文字控件" />
+            </Window>
+			
+			<Window type="ListBox" name="simple_list">
+                <Property name="UnifiedAreaRect" value="{{0,300},{0,410},{0,450},{0,600}}" />
+				<Window  type="ListBoxItem" />
+				<Window  type="ListBoxItem" />
+				<Window  type="ListBoxItem" />
+				<Window  type="ListBoxItem" />
+				<Window  type="ListBoxItem" />
+				<Window  type="ListBoxItem" />
+            </Window>
+            
+		</Window>
+	</Layout>
+    
+</RealWindow>

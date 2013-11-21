@@ -1,0 +1,9 @@
+﻿<RealWindow>
+	<Property name="Rect" value="{0,0,800,600}"/>
+	<Property name="MinimalSize" value="{400,300}"/>
+	<Property name="BorderSize" value="10" />
+	<Property name="CaptionHeight" value="30" />
+	<Property name="LayoutFile" value="test.layout" />
+	<Property name="CenterAlignment" value="true" />
+	<Property name="LayeredWindow" value="true" />
+</RealWindow>

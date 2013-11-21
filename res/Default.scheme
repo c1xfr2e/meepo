@@ -1,0 +1,20 @@
+﻿<Scheme Name="Default">
+	<Image File="Default.image" />
+	<Font File="Default.font" />
+	<WidgetLookFeel File="Default.looknfeel" />
+	<Animation File="Default.animation" />
+	<SpectreMapping WindowType="PushButton" TargetType="PushButton" Renderer="SpecSimpleButton" LookNFeel="GeneralButton" />
+	<SpectreMapping WindowType="ToolbarButton" TargetType="PushButton" Renderer="SpecToolbarButton" LookNFeel="ToolbarButton" />
+    <SpectreMapping WindowType="StaticText" TargetType="DefaultWindow" Renderer="SpecStaticText" LookNFeel="StaticText" />
+    <SpectreMapping WindowType="StaticImage" TargetType="DefaultWindow" Renderer="SpecStaticImage" LookNFeel="StaticImage" />
+	<SpectreMapping WindowType="PopupMenu" TargetType="PopupMenu" Renderer="SpecPopupMenu" LookNFeel="PopupMenu" />
+	<SpectreMapping WindowType="MenuItem" TargetType="MenuItem" Renderer="SpecMenuItem" LookNFeel="MenuItem" />
+	
+    <SpectreMapping WindowType="VerticalScrollBar" TargetType="ScrollBar" Renderer="SpecVerticalScrollBar" LookNFeel="VerticalScrollBar" />
+    <SpectreMapping WindowType="VerticalScrollbarThumb" TargetType="Thumb" Renderer="SpecSimpleButton" LookNFeel="VerticalScrollBarThumb" />
+	
+	<SpectreMapping WindowType="ListBox" TargetType="ListBox" Renderer="SpecListBox" LookNFeel="ListBox" />
+	<SpectreMapping WindowType="ListBoxItem" TargetType="ListBoxItem" Renderer="SpecListBoxItem" LookNFeel="ListBoxItem" />
+	
+    <SpectreMapping WindowType="CheckBox" TargetType="PushButton" Renderer="SpecSimpleButton" LookNFeel="CheckBox" />
+</Scheme>

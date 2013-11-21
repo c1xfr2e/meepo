@@ -1,0 +1,50 @@
+﻿<Window type="StaticImage" name="SimpleMsgBox">
+	<Property name="UnifiedAreaRect" value="{{0,0},{0,0},{1,0},{1,0}}" />
+	<Property name="Alpha" value="0" />
+	<Property name="RenderScale" value="0.9" />
+	<Property name="Image" value="msgbox_bkg2" />
+	<Property name="Animation" value="PopOut;Disappear" />
+	
+	<Window type="PushButton" name="SimpleMsgBox/btnCls">
+		<Property name="UnifiedAreaRect" value="{{1,-25},{0,10},{1,-10},{0,26}}" />
+		<Property name="NormalImage" value="msgbox_close_normal" />
+		<Property name="HoverImage" value="msgbox_close_hover" />
+		<Property name="PushImage" value="msgbox_close_push" />
+		<Property name="HoverShading" value="true" />
+		<Property name="LeaveShading" value="true" />
+		<Property name="Animation" value="ButtonHover;ButtonLeave" />
+	</Window>
+	
+	<Window type="StaticImage" name="SimpleMsgBox/Icon">
+		<Property name="VerticalAlignment" value="center" />
+		<Property name="UnifiedAreaRect" value="{{0,30},{0,-20},{0,82},{0,34}}" />
+		<Property name="Image" value="msgbox_icon_question" />
+	</Window>
+	
+	<Window type="PushButton" name="SimpleMsgBox/OK">
+		<Property name="UnifiedAreaRect" value="{{1,-200},{1,-40},{1,-120},{1,-12}}" />
+		<Property name="NormalImage" value="msgbox_btn_normal" />
+		<Property name="HoverImage" value="msgbox_btn_hover" />
+		<Property name="PushImage" value="msgbox_btn_push" />
+		<Property name="Font" value="msyh12" />
+		<Property name="Text" value="确 定" />
+		<Property name="TextOffset" value="{0,-2}" />
+		<Property name="HoverShading" value="true" />
+		<Property name="LeaveShading" value="true" />
+		<Property name="Animation" value="ButtonHover;ButtonLeave" />
+	</Window>	
+	
+	<Window type="PushButton" name="SimpleMsgBox/Cancel">
+		<Property name="UnifiedAreaRect" value="{{1,-110},{1,-40},{1,-30},{1,-12}}" />
+		<Property name="NormalImage" value="msgbox_btn_normal" />
+		<Property name="HoverImage" value="msgbox_btn_hover" />
+		<Property name="PushImage" value="msgbox_btn_push" />
+		<Property name="Font" value="msyh12" />
+		<Property name="Text" value="取 消" />
+		<Property name="TextOffset" value="{0,-2}" />
+		<Property name="HoverShading" value="true" />
+		<Property name="LeaveShading" value="true" />
+		<Property name="Animation" value="ButtonHover;ButtonLeave" />
+	</Window>
+	
+</Window>

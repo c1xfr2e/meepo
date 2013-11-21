@@ -1,0 +1,35 @@
+﻿<RealWindow>
+	<Property name="Rect" value="{0,0,800,800}"/>
+	<Property name="MinimalSize" value="{100,100}"/>
+	<Property name="BorderSize" value="5" />
+	<Property name="CaptionHeight" value="20" />
+	<Property name="CenterAlignment" value="true" />
+	<Property name="LayeredWindow" value="false" />
+	<Property name="TransparentColorKey" value="FF00FF" />
+	
+	<Layout>
+
+            <Window type="PopupMenu" name="SimpleMenu">
+                <Property name="UnifiedAreaRect" value="{{0,100},{0,100},{0,300},{0,300}}" />
+                <Property name="AutoResize" value="0" />
+                <Window type="MenuItem" name="item_1">
+                    <Property name="IconImage" value="ThunderMenuIcon_1" />
+                    <Property name="Text" value="我在线上" />
+                </Window>
+                <Window type="MenuItem" name="item_3">
+                    <Property name="Seperator" value="true" />
+                </Window>
+                <Window type="MenuItem" name="item_4">
+                    <Property name="IconImage" value="ThunderMenuIcon_4" />
+                    <Property name="Text" value="退出程序" />
+                </Window>
+                <Window type="MenuItem" name="item_5">
+                    <Property name="IconImage" value="ThunderMenuIcon_5" />
+                    <Property name="Text" value="退出程序" />
+                    <Property name="Disabled" value="true" />
+                </Window>
+            </Window>
+
+	</Layout>
+    
+</RealWindow>

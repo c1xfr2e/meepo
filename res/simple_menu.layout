@@ -1,0 +1,71 @@
+﻿<Window type="PopupMenu" name="SimpleMenu">
+	<Property name="UnifiedAreaRect" value="{{0,0},{0,0},{1,0},{1,0}}" />
+	<Property name="Alpha" value="255" />
+	<Property name="BackgroundImage" value="QQMenu_bkg" />
+	<Property name="ItemArea" value="{{0,7},{0,7},{1,-7},{1,-7}}" />
+	<Property name="IconOffset" value="{4,4}" />
+	<Property name="TextOffset" value="{31,3}" />
+	<Property name="SeperatorOffset" value="{25,4}" />
+	<Property name="AutoResize" value="1" />
+	<Property name="HilightImage" value="MenuItemHilight" />
+
+	<!--<Property name="Animation" value="MenuFadeOut;MenuDisappear" />-->
+
+	<Window type="MenuItem" name="item_1">
+		<Property name="IconImage" value="ThunderMenuIcon_1" />
+		<Property name="ItemHeight" value="24" />
+		<Property name="Text" value="我在线上" />
+	</Window>
+
+	<Window type="MenuItem" name="item_2">
+		<Property name="ItemHeight" value="24" />
+		<Property name="Text" value="子菜单" />
+		<Property name="Submenu" value="menu_1.wnd" />
+	</Window>
+
+	<Window type="MenuItem" name="item_3">
+		<Property name="ItemHeight" value="10" />
+		<Property name="Seperator" value="true" />
+	</Window>
+	
+	<Window type="MenuItem" name="item_4">
+		<Property name="IconImage" value="ThunderMenuIcon_4" />
+		<Property name="ItemHeight" value="24" />
+		<Property name="Text" value="退出程序" />
+	</Window>
+	
+	<Window type="MenuItem" name="item_5">
+		<Property name="IconImage" value="ThunderMenuIcon_5" />
+		<Property name="ItemHeight" value="24" />
+		<Property name="Text" value="退出程序" />
+		<Property name="Disabled" value="true" />
+	</Window>
+
+	<Window type="MenuItem" name="item_6">
+		<Property name="IconImage" value="ThunderMenuIcon_6" />
+		<Property name="ItemHeight" value="24" />
+		<Property name="Text" value="我在线上" />
+	</Window>
+	
+	<Window type="MenuItem" name="item_7">
+		<Property name="ItemHeight" value="10" />
+		<Property name="Seperator" value="true" />
+	</Window>
+	
+	<Window type="MenuItem" name="item_8">
+		<Property name="ItemHeight" value="24" />
+		<Property name="Text" value="退出程序" />
+	</Window>
+	
+	<Window type="MenuItem" name="item_9">
+		<Property name="ItemHeight" value="24" />
+		<Property name="Text" value="退出程序" />
+	</Window>
+
+	<Window type="MenuItem" name="item_10">
+		<Property name="ItemHeight" value="24" />
+		<Property name="Text" value="退出程序" />
+	</Window>
+	
+	
+</Window>

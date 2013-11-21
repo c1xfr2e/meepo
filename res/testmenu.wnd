@@ -1,0 +1,37 @@
+﻿<RealWindow>
+	<Property name="Rect" value="{0,0,170,240}" />
+	<Property name="MouseOffset" value="{5,5}" />
+	<Property name="LayeredWindow" value="1" />
+
+	<Layout>
+		<Window type="PopupMenu" name="SimpleMenu">
+			<!--<Property name="Animation" value="MenuFadeOut;MenuDisappear" />-->
+
+			<Window type="MenuItem" name="item_1">
+				<Property name="IconImage" value="ThunderMenuIcon_1" />
+				<Property name="Text" value="我在线上" />
+			</Window>
+
+			<Window type="MenuItem" name="item_2">
+				<Property name="Text" value="子菜单" />
+				<Property name="Submenu" value="menu_1.wnd" />
+			</Window>
+
+			<Window type="MenuItem" name="item_3">
+				<Property name="Seperator" value="true" />
+			</Window>
+
+			<Window type="MenuItem" name="item_4">
+				<Property name="IconImage" value="ThunderMenuIcon_4" />
+				<Property name="Text" value="退出程序" />
+			</Window>
+
+			<Window type="MenuItem" name="item_5">
+				<Property name="IconImage" value="ThunderMenuIcon_5" />
+				<Property name="Text" value="退出程序" />
+				<Property name="Disabled" value="true" />
+			</Window>
+		</Window>
+	</Layout>
+	
+</RealWindow>

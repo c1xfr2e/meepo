@@ -1,0 +1,197 @@
+<Animations>
+
+    <Animation name="IncreaseAlpha" duration="1000" replayMode="once">
+        <Affector property="ImageAlpha" interpolator="Int" applicationMethod="absolute">
+            <KeyFrame position="0" sourceProperty="ImageAlpha" />
+            <KeyFrame position="1000" value="255" progression="linear" />
+        </Affector>
+        <Subscription event="MouseEnterArea" action="start" />
+		<Subscription event="MouseLeaveArea" action="stop" />
+    </Animation>
+
+	<Animation name="DecreaseAlpha" duration="1000" replayMode="once">
+		<Affector property="ImageAlpha" interpolator="Int" applicationMethod="absolute">
+			<KeyFrame position="0" sourceProperty="ImageAlpha" />
+			<KeyFrame position="1000" value="50" progression="linear" />
+		</Affector>
+		<Subscription event="MouseLeaveArea" action="start" />
+		<Subscription event="MouseEnterArea" action="stop" />
+	</Animation>
+
+	<Animation name="ImageFade" duration="300" replayMode="once">
+		<Affector property="ImageAlpha" interpolator="Int" applicationMethod="absolute">
+			<KeyFrame position="0" value="255" />
+			<KeyFrame position="300" value="0" progression="linear" />
+		</Affector>
+		<Subscription event="StartFading" action="start" />
+	</Animation>
+	
+	<Animation name="ButtonHover" duration="200" replayMode="once">
+		<Affector property="ShadingAlpha" interpolator="Int" applicationMethod="absolute">
+			<KeyFrame position="0" value="0" />
+			<KeyFrame position="200" value="255" progression="quadratic decelerating" />
+		</Affector>
+		<Subscription event="MouseEnter" action="start" />
+		<Subscription event="MouseLeave" action="stop" />
+	</Animation>
+
+	<Animation name="ButtonLeave" duration="200" replayMode="once">
+		<Affector property="ShadingAlpha" interpolator="Int" applicationMethod="absolute">
+			<KeyFrame position="0" value="255" />
+			<KeyFrame position="200" value="0" progression="quadratic decelerating" />
+		</Affector>
+		<Subscription event="MouseEnter" action="stop" />
+		<Subscription event="MouseLeave" action="start" />
+	</Animation>
+
+	<Animation name="Running" duration="960" replayMode="loop">
+		<Affector property="Image" interpolator="String" applicationMethod="absolute">
+			<KeyFrame position="0" value="running01" />
+			<KeyFrame position="40" value="running02" progression="discrete" />
+			<KeyFrame position="80" value="running03" progression="discrete" />
+			<KeyFrame position="120" value="running04" progression="discrete" />
+			<KeyFrame position="160" value="running05" progression="discrete" />
+			<KeyFrame position="200" value="running06" progression="discrete" />
+			<KeyFrame position="240" value="running07" progression="discrete" />
+			<KeyFrame position="280" value="running08" progression="discrete" />
+			<KeyFrame position="320" value="running09" progression="discrete" />
+			<KeyFrame position="360" value="running10" progression="discrete" />
+			<KeyFrame position="400" value="running11" progression="discrete" />
+			<KeyFrame position="440" value="running12" progression="discrete" />
+			<KeyFrame position="480" value="running13" progression="discrete" />
+			<KeyFrame position="520" value="running14" progression="discrete" />
+			<KeyFrame position="560" value="running15" progression="discrete" />
+			<KeyFrame position="600" value="running16" progression="discrete" />
+			<KeyFrame position="640" value="running17" progression="discrete" />
+			<KeyFrame position="680" value="running18" progression="discrete" />
+			<KeyFrame position="720" value="running19" progression="discrete" />
+			<KeyFrame position="760" value="running20" progression="discrete" />
+			<KeyFrame position="800" value="running21" progression="discrete" />
+			<KeyFrame position="840" value="running22" progression="discrete" />
+			<KeyFrame position="880" value="running23" progression="discrete" />
+			<KeyFrame position="920" value="running24" progression="discrete" />
+		</Affector>
+		<Subscription event="MouseEnter" action="start" />
+	</Animation>
+
+	<Animation name="image_ani_btn_1_enter" duration="300" replayMode="once">
+		<Affector property="NormalImage" interpolator="StringSequence" applicationMethod="absolute">
+			<KeyFrame position="0" sourceProperty="NormalImage" />
+			<KeyFrame position="300" value="5" progression="linear" />
+		</Affector>
+		<Subscription event="MouseEnter" action="start" />
+		<Subscription event="MouseLeave" action="stop" />
+	</Animation>
+
+	<Animation name="image_ani_btn_1_leave" duration="300" replayMode="once">
+		<Affector property="ShadingAlpha" interpolator="Int" applicationMethod="absolute">
+			<KeyFrame position="0" value="255" />
+			<KeyFrame position="300" value="0" progression="quadratic decelerating" />
+		</Affector>
+		<Affector property="NormalImage" interpolator="StringSequence" applicationMethod="absolute">
+			<KeyFrame position="0" sourceProperty="NormalImage" />
+			<KeyFrame position="300" value="0" progression="linear" />
+		</Affector>
+		<Subscription event="MouseEnter" action="stop" />
+		<Subscription event="MouseLeave" action="start" />
+	</Animation>
+	
+	<Animation name="login_ani_btn" duration="700" replayMode="loop" autoStart="0">
+		<Affector property="Image" interpolator="StringSequence" applicationMethod="absolute">
+			<KeyFrame position="0" sourceProperty="Image" />
+			<KeyFrame position="700" value="7" progression="linear" />
+		</Affector>
+	</Animation>
+
+	<Animation name="MoveTest" duration="300" replayMode="bounce">
+		<Affector property="UnifiedPosition" interpolator="UVector2" applicationMethod="relative">
+			<KeyFrame position="0" value="{{0,0},{0,0}" />
+			<KeyFrame position="300" value="{{0,200},{0,0}" progression="linear" />
+		</Affector>
+		<Subscription event="MoveTest" action="start" />
+	</Animation>
+
+	<Animation name="MoveDownBack" duration="200" replayMode="bounce">
+		<Affector property="Position" interpolator="Point" applicationMethod="relative">
+			<KeyFrame position="0" value="{0,0}" />
+			<KeyFrame position="200" value="{0,100}" progression="linear" />
+		</Affector>
+		<Subscription event="MoveDownBack" action="start" />
+	</Animation>
+
+	<Animation name="GrowOut" duration="100" replayMode="once">
+		<Affector property="UnifiedSize" interpolator="UVector2" applicationMethod="absolute">
+			<KeyFrame position="0" value="{{0,0},{0,0}}" />
+			<KeyFrame position="100" value="{{1,0},{1,0}}" progression="linear" />
+		</Affector>
+		<Subscription event="Shown" action="start" />
+	</Animation>
+
+	<Animation name="MenuFadeOut" duration="200" replayMode="once">
+		<Affector property="Alpha" interpolator="Int" applicationMethod="absolute">
+			<KeyFrame position="0" value="0" />
+			<KeyFrame position="200" value="255" progression="linear" />
+		</Affector>
+		<Subscription event="Shown" action="start" />
+	</Animation>
+
+	<Animation name="MenuDisappear" duration="200" replayMode="once">
+		<Affector property="Alpha" interpolator="Int" applicationMethod="absolute">
+			<KeyFrame position="0" value="255" />
+			<KeyFrame position="200" value="0" progression="linear" />
+		</Affector>
+		<Subscription event="BeginDisappear" action="start" />
+	</Animation>
+
+	<Animation name="PopOut" duration="150" replayMode="once">
+		<Affector property="RenderScale" interpolator="Float" applicationMethod="absolute">
+			<KeyFrame position="0" sourceProperty="RenderScale"/>
+			<KeyFrame position="150" value="1.0" progression="linear" />
+		</Affector>
+		<Affector property="Alpha" interpolator="Int" applicationMethod="absolute">
+			<KeyFrame position="0" value="0"/>
+			<KeyFrame position="150" value="255" progression="quadratic decelerating" />
+		</Affector>
+		<Subscription event="Shown" action="start" />
+	</Animation>
+
+	<Animation name="Disappear" duration="100" replayMode="once">
+		<Affector property="RenderScale" interpolator="Float" applicationMethod="absolute">
+			<KeyFrame position="0" sourceProperty="RenderScale"/>
+			<KeyFrame position="100" value="0.7" progression="linear" />
+		</Affector>
+		<Affector property="Alpha" interpolator="Int" applicationMethod="absolute">
+			<KeyFrame position="0" sourceProperty="Alpha"/>
+			<KeyFrame position="100" value="0" progression="linear"/>
+		</Affector>
+		<Subscription event="BeginDisappear" action="start" />
+	</Animation>
+
+	<Animation name="SmoothPopOut" duration="200" replayMode="once">
+		<Affector property="UnifiedAreaRect" interpolator="URect" applicationMethod="relative multiply">
+			<KeyFrame position="0" value="1.0"/>
+			<KeyFrame position="100" value="1.04" progression="linear" />
+			<KeyFrame position="200" value="1.01" progression="linear" />
+		</Affector>
+		<Affector property="Alpha" interpolator="Int" applicationMethod="absolute">
+			<KeyFrame position="0" value="0"/>
+			<KeyFrame position="200" value="255" progression="linear" />
+		</Affector>
+		<Subscription event="Shown" action="start" />
+	</Animation>
+
+	<Animation name="SmoothDisappear" duration="260" replayMode="once">
+		<Affector property="UnifiedAreaRect" interpolator="URect" applicationMethod="relative multiply">
+			<KeyFrame position="0" value="1"/>
+			<KeyFrame position="130" value="0.97" progression="linear" />
+			<KeyFrame position="260" value="1.2" progression="linear" />
+		</Affector>
+		<Affector property="Alpha" interpolator="Int" applicationMethod="absolute">
+			<KeyFrame position="0" sourceProperty="Alpha"/>
+			<KeyFrame position="260" value="0" progression="linear"/>
+		</Affector>
+		<Subscription event="BeginDisappear" action="start" />
+	</Animation>
+
+</Animations>
+

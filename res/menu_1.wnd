@@ -1,0 +1,27 @@
+﻿<RealWindow>
+	<Property name="Rect" value="{0,0,170,240}" />
+	<Property name="NeedFocus" value="0" />
+	<Property name="LayeredWindow" value="1" />
+
+	<Window type="PopupMenu" name="SimpleMenu">
+		<Property name="UnifiedAreaRect" value="{{0,0},{0,0},{1,0},{1,0}}" />
+		
+		<Window type="MenuItem" name="item_1">
+			<Property name="IconImage" value="ThunderMenuIcon_1" />
+			<Property name="Text" value="子菜单1" />
+		</Window>
+
+		<Window type="MenuItem" name="item_2">
+			<Property name="Text" value="子菜单2" />
+		</Window>
+
+		<Window type="MenuItem" name="item_3">
+			<Property name="Seperator" value="true" />
+		</Window>
+
+		<Window type="MenuItem" name="item_4">
+			<Property name="IconImage" value="ThunderMenuIcon_4" />
+			<Property name="Text" value="子菜单3" />
+		</Window>
+	</Window>
+</RealWindow>

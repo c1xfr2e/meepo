@@ -1,0 +1,214 @@
+﻿<ImageDefinition>
+    <image name="QQMainBg" file="QQ/main_white_bkg.png" stretch_mode="xy" stretch_dim="l:10,r:10,t:10,b:10" />
+	<image name="aio_bkg" file="QQ/aio_nolight_bkg.png" stretch_mode="xy" stretch_dim="l:12,r:12,t:12,b:12" />
+	<image name="QQMainBgLight" file="QQ/main_light_bkg.png" stretch_mode="xy" stretch_dim="l:10,r:10,t:10,b:10"/>
+    <image name="loginBg" file="QQ/LoginPanel_window_windowBkg.png" stretch_mode="xy" stretch_dim="l:10,r:10,t:10,b:10"/>
+
+    <image name="QQMenu" file="QQ/menu_topright_bkg.png" stretch_mode="xy" stretch_dim="l:50,r:15,t:20,b:65" />
+
+	<image name="MinBtnNormal" file="QQ/btn_mini_normal.png"/>
+	<image name="MinBtnHover" file="QQ/btn_mini_highlight.png"/>
+	<image name="MinBtnPush" file="QQ/btn_mini_down.png"/>
+
+	<image name="MaxBtnNormal" file="QQ/btn_max_normal.png"/>
+	<image name="MaxBtnHover" file="QQ/btn_max_highlight.png"/>
+	<image name="MaxBtnPush" file="QQ/btn_max_down.png"/>
+
+	<image name="ClsBtnNormal" file="QQ/btn_close_normal.png"/>
+	<image name="ClsBtnHover" file="QQ/btn_close_highlight.png"/>
+	<image name="ClsBtnPush" file="QQ/btn_close_down.png"/>
+
+	<image name="bubble" file="QQ/4-1.png" />
+	<image name="qqbanner" file="QQ/mini_defaultbanner.jpg" stretch_mode="fixed" />
+	
+	<image name="toolbar1" file="QQ/toolbar1.png" />
+	<image name="toolbar2" file="QQ/toolbar2.png" />
+	<image name="toolbar3" file="QQ/toolbar3.png" />
+	<image name="toolbar4" file="QQ/toolbar4.png" />
+	<image name="toolbar5" file="QQ/toolbar5.png" />
+
+	<image name="toobarBtnHoverHighlight" file="QQ/aio_toolbar_highligh.png" stretch_mode="x" stretch_dim="l:5,r:5"/>
+    <image name="toobarBtnPushHighlight" file="QQ/aio_toolbar_down.png" stretch_mode="x" stretch_dim="l:5,r:5"/>
+	
+	<image name="LoginButtonNormal" file="QQ/login_btn_normal.png" />
+	<image name="LoginButtonHover" file="QQ/login_btn_highlight.png" />
+	<image name="LoginButtonPush" file="QQ/login_btn_down.png" />
+
+	<image name="Bkg1" file="QQ/bkg1.jpg" stretch_mode="xy" stretch_dim="l:1157,r:10,t:860,b:10"/>
+    <image name="Bkg2" file="QQ/bkg2.jpg" stretch_mode="xy" stretch_dim="l:1170,r:10,t:885,b:10"/>
+	<image name="Bkg3" file="QQ/bkg3.jpg" stretch_mode="xy" stretch_dim="l:279,r:20,t:434,b:6"/>
+	<image name="Bkg4" file="QQ/bkg4.jpg" stretch_mode="xy" stretch_dim="l:680,r:10,t:280,b:10"/>
+	<image name="Bkg5" file="QQ/bkg5.jpg" stretch_mode="xy" stretch_dim="l:868,r:20,t:356,b:20"/>
+	<image name="Bkg6" file="QQ/bkg6.jpg" stretch_mode="xy" stretch_dim="l:395,r:20,t:395,b:5"/>
+	
+	<image name="running1" file="animate/running01.png" />
+	<image name="running2" file="animate/running02.png" />
+	<image name="running3" file="animate/running03.png" />
+	<image name="running4" file="animate/running04.png" />
+	<image name="running5" file="animate/running05.png" />
+	<image name="running6" file="animate/running06.png" />
+	<image name="running7" file="animate/running07.png" />
+	<image name="running8" file="animate/running08.png" />
+	<image name="running9" file="animate/running09.png" />
+	<image name="running10" file="animate/running10.png" />
+	<image name="running11" file="animate/running11.png" />
+	<image name="running12" file="animate/running12.png" />
+	<image name="running13" file="animate/running13.png" />
+	<image name="running14" file="animate/running14.png" />
+	<image name="running15" file="animate/running15.png" />
+	<image name="running16" file="animate/running16.png" />
+	<image name="running17" file="animate/running17.png" />
+	<image name="running18" file="animate/running18.png" />
+	<image name="running19" file="animate/running19.png" />
+	<image name="running20" file="animate/running20.png" />
+	<image name="running21" file="animate/running21.png" />
+	<image name="running22" file="animate/running22.png" />
+	<image name="running23" file="animate/running23.png" />
+	<image name="running24" file="animate/running24.png" />
+	
+	<image name="AniBtn1" file="Thunder/ani_btn_1.png">
+		<sub name="ani_btn_1_0" x="0" y="0" w="38" h="42" />
+		<sub name="ani_btn_1_1" x="39" y="0" w="38" h="42" />
+		<sub name="ani_btn_1_2" x="78" y="0" w="38" h="42" />
+		<sub name="ani_btn_1_3" x="117" y="0" w="38" h="42" />
+		<sub name="ani_btn_1_4" x="156" y="0" w="38" h="42" />
+		<sub name="ani_btn_1_5" x="195" y="0" w="38" h="42" />
+	</image>
+
+	<image name="AniBtn2" file="Thunder/ani_btn_2.png">
+		<sub name="ani_btn_2_0" x="0" y="0" w="38" h="42" />
+		<sub name="ani_btn_2_1" x="39" y="0" w="38" h="42" />
+		<sub name="ani_btn_2_2" x="78" y="0" w="38" h="42" />
+		<sub name="ani_btn_2_3" x="117" y="0" w="38" h="42" />
+		<sub name="ani_btn_2_4" x="156" y="0" w="38" h="42" />
+		<sub name="ani_btn_2_5" x="195" y="0" w="38" h="42" />
+	</image>
+
+	<image name="AniBtn3" file="Thunder/ani_btn_3.png">
+		<sub name="ani_btn_3_0" x="0" y="0" w="38" h="42" />
+		<sub name="ani_btn_3_1" x="39" y="0" w="38" h="42" />
+		<sub name="ani_btn_3_2" x="78" y="0" w="38" h="42" />
+		<sub name="ani_btn_3_3" x="117" y="0" w="38" h="42" />
+		<sub name="ani_btn_3_4" x="156" y="0" w="38" h="42" />
+		<sub name="ani_btn_3_5" x="195" y="0" w="38" h="42" />
+	</image>
+
+	<image name="AniBtn4" file="Thunder/ani_btn_4.png">
+		<sub name="ani_btn_4_0" x="0" y="0" w="38" h="42" />
+		<sub name="ani_btn_4_1" x="39" y="0" w="38" h="42" />
+		<sub name="ani_btn_4_2" x="78" y="0" w="38" h="42" />
+		<sub name="ani_btn_4_3" x="117" y="0" w="38" h="42" />
+		<sub name="ani_btn_4_4" x="156" y="0" w="38" h="42" />
+		<sub name="ani_btn_4_5" x="195" y="0" w="38" h="42" />
+	</image>
+
+	<image name="AniBtn5" file="Thunder/ani_btn_5.png">
+		<sub name="ani_btn_5_0" x="0" y="0" w="38" h="42" />
+		<sub name="ani_btn_5_1" x="39" y="0" w="38" h="42" />
+		<sub name="ani_btn_5_2" x="78" y="0" w="38" h="42" />
+		<sub name="ani_btn_5_3" x="117" y="0" w="38" h="42" />
+		<sub name="ani_btn_5_4" x="156" y="0" w="38" h="42" />
+		<sub name="ani_btn_5_5" x="195" y="0" w="38" h="42" />
+	</image>
+
+	<image name="ThunderToobarBtnHoverHighlight" file="Thunder/toolbar_btn_hilight.png" stretch_mode="xy" stretch_dim="l:5,r:5,t:5,b:5"/>
+	<image name="ThunderToobarBtnPushHighlight" file="Thunder/toolbar_btn_push.png" stretch_mode="xy" stretch_dim="l:5,r:5,t:5,b:5"/>
+
+	<image name="ThenderLoginAni" file="Thunder/Login.png">
+		<sub name="ani_login_0" x="0" y="0" w="75" h="22" />
+		<sub name="ani_login_1" x="76" y="0" w="75" h="22" />
+		<sub name="ani_login_2" x="152" y="0" w="75" h="22" />
+		<sub name="ani_login_3" x="228" y="0" w="75" h="22" />
+		<sub name="ani_login_4" x="304" y="0" w="75" h="22" />
+		<sub name="ani_login_5" x="380" y="0" w="75" h="22" />
+		<sub name="ani_login_6" x="456" y="0" w="75" h="22" />
+		<sub name="ani_login_7" x="532" y="0" w="75" h="22" />
+	</image>
+
+	<image name="rotate" file="Thunder/rotate.png"/>
+	<image name="thunderAniBtnBkg" file="Thunder/privatetip.bkg.png"/>
+
+	<image name="QQInnerMask" file="QQ/main_png_bkg.png" stretch_mode="xy" stretch_dim="l:10,r:10,t:160,b:70"/>
+
+	<image name="msgbox_bkg1" file="Thunder/msgbox_bkg.png" stretch_mode="xy" stretch_dim="l:10,r:10,t:43,b:85" alphaAffector="1.2"/>
+	<image name="msgbox_bkg2" file="Thunder/bkg.body.png" stretch_mode="xy" stretch_dim="l:10,r:10,t:48,b:30"/>
+
+	<image name="msgbox_close" file="Thunder/msgbox.close.heavy.png">
+		<sub name="msgbox_close_normal" x="0" y="0" w="15" h="16" />
+		<sub name="msgbox_close_hover" x="16" y="0" w="15" h="16" />
+		<sub name="msgbox_close_push" x="32" y="0" w="15" h="16" />
+	</image>
+
+	<image name="msgbox_icon" file="Thunder/msgbox_icon.png">
+		<sub name="msgbox_icon_question" x="0" y="0" w="52" h="54" />
+	</image>
+
+	<image name="msgbox_btn_normal" file="Thunder/btn_normal.png" stretch_mode="x" stretch_dim="l:4,r:4"/>
+	<image name="msgbox_btn_hover" file="Thunder/btn_hover.png" stretch_mode="x" stretch_dim="l:4,r:4"/>
+	<image name="msgbox_btn_push" file="Thunder/btn_push.png" stretch_mode="x" stretch_dim="l:4,r:4"/>	
+	
+	<image name="allbtn_normal" file="QQ/all_btn_normal.png"/>
+	<image name="allbtn_hover" file="QQ/all_btn_highlight.png"/>
+	<image name="allbtn_push" file="QQ/all_btn_down.png"/>
+	<image name="allbtn_focus" file="QQ/all_btn_focus.png"/>
+
+
+	<image name="QQMenu_bkg" file="QQ/menu_bkg.png" stretch_mode="xy" stretch_dim="l:32,r:8,t:10,b:10" />
+	
+	<image name="ThunderMenuIcon" file="Thunder/imagelist.menu.icon.png">
+		<sub name="ThunderMenuIcon_1" x="0" y="0" w="16" h="16" />
+		<sub name="ThunderMenuIcon_2" x="17" y="0" w="16" h="16" />
+		<sub name="ThunderMenuIcon_3" x="34" y="0" w="16" h="16" />
+		<sub name="ThunderMenuIcon_4" x="51" y="0" w="16" h="16" />
+		<sub name="ThunderMenuIcon_5" x="68" y="0" w="16" h="16" />
+		<sub name="ThunderMenuIcon_6" x="85" y="0" w="16" h="16" />
+		<sub name="ThunderMenuIcon_7" x="102" y="0" w="16" h="16" />
+		<sub name="ThunderMenuIcon_8" x="119" y="0" w="16" h="16" />
+		<sub name="ThunderMenuIcon_9" x="136" y="0" w="16" h="16" />
+		<sub name="ThunderMenuIcon_10" x="151" y="0" w="16" h="16" />
+	</image>
+
+	<image name="MenuItemHilight" file="Thunder/menu_item_hilight.png" stretch_mode="x" stretch_dim="l:5,r:5" />
+	
+	<image name="MenuSeperatorLine" file="Thunder/menu.line.png" stretch_mode="x" stretch_dim="l:5,r:5" />
+	<!--<image name="MenuArrow" file="Thunder/menu_item_hilight.png" stretch_mode="x" stretch_dim="l:5,r:5" />-->
+
+	<image name="BmpBkg" file="QQ/mainbkg_bmp.bmp" stretch_mode="xy" stretch_dim="l:10,r:10,t:10,b:10"/>
+
+	
+	<!-- scroll bar -->
+	<image name="scrollbar_vert_bkg" file="QQ/ScrollBar/scrollbar_bkg.png" stretch_mode="y" stretch_dim="t:5,b:5"/>
+	
+	<image name="scrollbar_vert_thumb_normal" file="QQ/ScrollBar/scrollbar_bar_normal.png" x="0" y="1" w="14" h="12" stretch_mode="y" stretch_dim="t:3,b:3"/>
+	<image name="scrollbar_vert_thumb_hover" file="QQ/ScrollBar/scrollbar_bar_highlight.png" x="0" y="1" w="14" h="12" stretch_mode="y" stretch_dim="t:3,b:3"/>
+    <image name="scrollbar_vert_thumb_down" file="QQ/ScrollBar/scrollbar_bar_down.png" x="0" y="1" w="14" h="12" stretch_mode="y" stretch_dim="t:3,b:3"/>
+
+	<image name="scrollbar_arrowup_normal" file="QQ/ScrollBar/scrollbar_arrowup_normal.png" />
+	<image name="scrollbar_arrowup_hover" file="QQ/ScrollBar/scrollbar_arrowup_highlight.png" />
+	<image name="scrollbar_arrowup_down" file="QQ/ScrollBar/scrollbar_arrowup_down.png" />
+
+	<image name="scrollbar_arrowdown_normal" file="QQ/ScrollBar/scrollbar_arrowdown_normal.png" />
+	<image name="scrollbar_arrowdown_highlight" file="QQ/ScrollBar/scrollbar_arrowdown_highlight.png" />
+	<image name="scrollbar_arrowdown_down" file="QQ/ScrollBar/scrollbar_arrowdown_down.png" />
+
+	<!-- list box -->
+	<image name="ListBoxBkg" file="QQ/List/list_bkg.png" />
+	<image name="ListBoxItemHilight" file="QQ/List/listitem_highlight.png" stretch_mode="x" stretch_dim="l:5,r:5" />
+	<image name="ListBoxItemSelect" file="QQ/List/listitem_check.png" stretch_mode="x" stretch_dim="l:5,r:5" />
+	
+	
+</ImageDefinition>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

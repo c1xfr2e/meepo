@@ -1,0 +1,156 @@
+﻿<Spectre>
+    <LookNFeel name="StaticText">
+        <PropertyDefinition name="NormalTextColor" initialValue="FF000000" redrawOnWrite="true" />
+        <PropertyDefinition name="DisableTextColor" initialValue="FF7F7F7F" redrawOnWrite="true" />
+        <PropertyDefinition name="Font" initialValue="msyh12" redrawOnWrite="true" />
+		<PropertyDefinition name="TextOffset" initialValue="{0,0}" redrawOnWrite="true" />
+    </LookNFeel>
+    
+    <LookNFeel name="StaticImage">
+        <PropertyDefinition name="Image" initialValue="" redrawOnWrite="true" />
+        <PropertyDefinition name="ImageAlpha" initialValue="255" redrawOnWrite="true"/>
+    </LookNFeel>
+	
+	<LookNFeel name="GeneralButton">
+		<PropertyDefinition name="NormalImage" initialValue="" redrawOnWrite="true" />
+		<PropertyDefinition name="HoverImage" initialValue="" redrawOnWrite="true" />
+		<PropertyDefinition name="PushImage" initialValue="" redrawOnWrite="true" />
+		<PropertyDefinition name="DisableImage" initialValue="" redrawOnWrite="true" />
+		<PropertyDefinition name="Font" initialValue="DefaultButtonFont" redrawOnWrite="true" />
+		<PropertyDefinition name="NormalTextColor" initialValue="FF000000" redrawOnWrite="true" />
+		<PropertyDefinition name="HoverTextColor" initialValue="FF000000" redrawOnWrite="true" />
+		<PropertyDefinition name="PushTextColor" initialValue="FF000000" redrawOnWrite="true" />
+		<PropertyDefinition name="DisableTextColor" initialValue="FF7F7F7F" redrawOnWrite="true" />
+		<PropertyDefinition name="PushOffset" initialValue="{0,0}" redrawOnWrite="false" />
+		<PropertyDefinition name="HoverShading" initialValue="false" redrawOnWrite="false" />
+		<PropertyDefinition name="LeaveShading" initialValue="false" redrawOnWrite="false" />
+		<PropertyDefinition name="ShadingAlpha" initialValue="0" redrawOnWrite="true" />
+		<PropertyDefinition name="VertTextAlign" initialValue="center" redrawOnWrite="true"/>
+		<PropertyDefinition name="HorzTextAlign" initialValue="center" redrawOnWrite="true"/>
+		<PropertyDefinition name="TextOffset" initialValue="{0,0}" redrawOnWrite="true" />
+		<PropertyDefinition name="TextOnly" initialValue="false" redrawOnWrite="true" />
+	</LookNFeel>
+
+	<LookNFeel name="ToolbarButton">
+		<PropertyDefinition name="NormalImage" initialValue="" redrawOnWrite="true" />
+		<PropertyDefinition name="HoverImage" initialValue="" redrawOnWrite="true" />
+		<PropertyDefinition name="PushImage" initialValue="" redrawOnWrite="true" />
+		<PropertyDefinition name="DisableImage" initialValue="" redrawOnWrite="true" />
+		<PropertyDefinition name="HoverHighlightImage" initialValue="" redrawOnWrite="true" />
+		<PropertyDefinition name="PushHighlightImage" initialValue="" redrawOnWrite="true" />
+		<PropertyDefinition name="Font" initialValue="DefaultButtonFont" redrawOnWrite="true" />
+		<PropertyDefinition name="NormalTextColor" initialValue="FF000000" redrawOnWrite="true" />
+		<PropertyDefinition name="HoverTextColor" initialValue="FF000000" redrawOnWrite="true" />
+		<PropertyDefinition name="PushTextColor" initialValue="FF000000" redrawOnWrite="true" />
+		<PropertyDefinition name="DisableTextColor" initialValue="FF7F7F7F" redrawOnWrite="true" />
+		<PropertyDefinition name="PushOffset" initialValue="{0,0}" redrawOnWrite="false" />
+		<PropertyDefinition name="HoverShading" initialValue="false" redrawOnWrite="false" />
+		<PropertyDefinition name="LeaveShading" initialValue="false" redrawOnWrite="false" />
+		<PropertyDefinition name="ShadingAlpha" initialValue="0" redrawOnWrite="true" />
+		<PropertyDefinition name="VertTextAlign" initialValue="center" redrawOnWrite="true"/>
+		<PropertyDefinition name="HorzTextAlign" initialValue="center" redrawOnWrite="true"/>
+		<PropertyDefinition name="VertImageAlign" initialValue="center" redrawOnWrite="true" />
+		<PropertyDefinition name="HorzImageAlign" initialValue="center" redrawOnWrite="true" />
+		<PropertyDefinition name="ImageOffset" initialValue="{0,0}" redrawOnWrite="true" />
+		<PropertyDefinition name="TextOffset" initialValue="{0,0}" redrawOnWrite="true" />
+		<PropertyDefinition name="TextOnly" initialValue="false" redrawOnWrite="true" />
+	</LookNFeel>
+
+	<LookNFeel name="CheckBox">
+        <PropertyDefinition name="NormalImage" initialValue="scrollbar_vert_thumb_normal" redrawOnWrite="true" />
+        <PropertyDefinition name="HoverImage" initialValue="scrollbar_vert_thumb_hover" redrawOnWrite="true" />
+        <PropertyDefinition name="SelectImage" initialValue="scrollbar_vert_thumb_hover" redrawOnWrite="true" />
+    </LookNFeel>
+	
+	<LookNFeel name="PopupMenu">
+		<PropertyDefinition name="BackgroundImage" initialValue="QQMenu_bkg" redrawOnWrite="true" />
+		<PropertyDefinition name="ItemArea" initialValue="{{0,7},{0,7},{1,-7},{1,-7}}" redrawOnWrite="true"/>
+		<PropertyDefinition name="IconOffset" initialValue="{4,4}" redrawOnWrite="true" />
+		<PropertyDefinition name="TextOffset" initialValue="{31,3}" redrawOnWrite="true" />
+		<PropertyDefinition name="SeperatorHeight" initialValue="9" redrawOnWrite="true" />
+		<PropertyDefinition name="SeperatorImage" initialValue="MenuSeperatorLine" redrawOnWrite="true" />
+		<PropertyDefinition name="SeperatorOffset" initialValue="{25,4}" redrawOnWrite="true" />
+		<PropertyDefinition name="ItemHeight" initialValue="24" redrawOnWrite="true" />
+		<PropertyDefinition name="HilightImage" initialValue="MenuItemHilight" redrawOnWrite="true" />
+		<PropertyDefinition name="Font" initialValue="DefaultButtonFont" redrawOnWrite="true" />
+		<PropertyDefinition name="NormalTextColor" initialValue="FF000000" redrawOnWrite="true" />
+		<PropertyDefinition name="HilightTextColor" initialValue="FFFFFFFF" redrawOnWrite="true" />
+		<PropertyDefinition name="DisableTextColor" initialValue="FF7F7F7F" redrawOnWrite="true" />
+	</LookNFeel>
+
+    <LookNFeel name="MenuItem">
+        <PropertyDefinition name="IconImage" initialValue="" redrawOnWrite="true" />
+    </LookNFeel>
+
+	<!-- List box -->
+	<LookNFeel name="ListBox">
+		<PropertyDefinition name="BackgroundImage" initialValue="ListBoxBkg" redrawOnWrite="true" />
+		<PropertyDefinition name="ItemArea" initialValue="{{0,0},{0,0},{1,-14},{1,0}}" redrawOnWrite="true"/>
+		<PropertyDefinition name="ItemHeight" initialValue="20" redrawOnWrite="true" />
+		<PropertyDefinition name="HilightImage" initialValue="ListBoxItemHilight" redrawOnWrite="true" />
+		<PropertyDefinition name="SelectImage" initialValue="ListBoxItemSelect" redrawOnWrite="true" />
+		<PropertyDefinition name="Font" initialValue="DefaultButtonFont" redrawOnWrite="true" />
+		<PropertyDefinition name="NormalTextColor" initialValue="FF000000" redrawOnWrite="true" />
+		<PropertyDefinition name="HilightTextColor" initialValue="FF000000" redrawOnWrite="true" />
+		<PropertyDefinition name="SelectTextColor" initialValue="FFFFFFFF" redrawOnWrite="true" />
+		<PropertyDefinition name="DisableTextColor" initialValue="FF7F7F7F" redrawOnWrite="true" />
+		<Child type="VerticalScrollBar" nameSuffix="__auto_vert_srcoll__">
+            <Property name="UnifiedAreaRect" value="{{1,-14},{0,0},{1,0},{1,0}}" />
+        </Child>
+	</LookNFeel>	
+		
+	<LookNFeel name="ListBoxItem">
+		<Child type="StaticText" nameSuffix="__auto_listitem_text__">
+			<Property name="Text" value="打开文件" />
+            <Property name="UnifiedAreaRect" value="{{0,0},{0,0},{1,0},{1,0}}" />
+			<Property name="MousePassThrough" value="true" />
+			<Property name="TextOffset" value="{5,1}" />
+        </Child>
+    </LookNFeel>
+	<!-- ~ -->
+	
+	<LookNFeel name="VerticalScrollBarThumb">
+		<PropertyDefinition name="NormalImage" initialValue="scrollbar_vert_thumb_normal" redrawOnWrite="true" />
+		<PropertyDefinition name="HoverImage" initialValue="scrollbar_vert_thumb_hover" redrawOnWrite="true" />
+		<PropertyDefinition name="PushImage" initialValue="scrollbar_vert_thumb_down" redrawOnWrite="true" />
+	</LookNFeel>
+
+	<LookNFeel name="VerticalScrollBar">
+		<PropertyDefinition name="BackgroundImage" initialValue="scrollbar_vert_bkg" redrawOnWrite="true" />
+		<Child type="PushButton" nameSuffix="__auto_incbtn__">
+            <Property name="NormalImage" value="scrollbar_arrowup_normal" />
+            <Property name="HoverImage" value="scrollbar_arrowup_hover" />
+            <Property name="PushImage" value="scrollbar_arrowup_down" />
+            <Property name="UnifiedAreaRect" value="{{0,0},{0,0},{1,0},{0,14}}" />
+        </Child>
+        <Child type="PushButton" nameSuffix="__auto_decbtn__">
+            <Property name="NormalImage" value="scrollbar_arrowdown_normal" />
+            <Property name="HoverImage" value="scrollbar_arrowdown_hover" />
+            <Property name="PushImage" value="scrollbar_arrowdown_down" />
+            <Property name="UnifiedAreaRect" value="{{0,0},{1,-14},{0,14},{1,0}}" />
+        </Child>
+        <Child  type="VerticalScrollbarThumb" nameSuffix="__auto_thumb__">
+            <Property name="NormalImage" value="scrollbar_vert_thumb_normal" />
+            <Property name="HoverImage" value="scrollbar_vert_thumb_hover" />
+            <Property name="PushImage" value="scrollbar_vert_thumb_down" />
+            <Property name="VertFree" value="true" />
+            <Property name="UnifiedAreaRect" value="{{0,0},{0,50},{1,0},{0,120}}" />
+            <Property name="VertRange" value="min:15 max:15" />
+        </Child>
+	</LookNFeel>
+	
+	
+</Spectre>
+
+
+
+
+
+
+
+
+
+
+
+
+
